@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="AssimpPixel.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="AssimpVertex.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel2D.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex2D.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+    <FxCompile Include="AssimpRimPixel.hlsl">
+      <Filter>リソース ファイル\シェーダー</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugProc.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\システム\カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>ソース ファイル\システム\カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\地面</Filter>
+    </ClCompile>
+    <ClCompile Include="GolemAnim.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakGround.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="2DObj.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\開始ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpModel.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\シーン\タイトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\マウスカーソル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\タイトルロゴ</Filter>
+    </ClCompile>
+    <ClCompile Include="HPGauge.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ゲージ</Filter>
+    </ClCompile>
+    <ClCompile Include="HPGaugePlayer.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ゲージ\プレイヤー</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\武器</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\自機</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnim.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\自機</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCollision.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\自機</Filter>
+    </ClCompile>
+    <ClCompile Include="Damage.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ダメージ</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>ソース ファイル\シーン\ホーム画面</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponIcon.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\アイコン</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyIcon.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\アイコン</Filter>
+    </ClCompile>
+    <ClCompile Include="BG_Frame.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\背景</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\モンスターボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="DuelStartButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\戦闘開始ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\武器ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSelect.cpp">
+      <Filter>ソース ファイル\シーン\武器選択画面</Filter>
+    </ClCompile>
+    <ClCompile Include="IconWS.cpp">
+      <Filter>ソース ファイル\シーン\武器選択画面</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\矢印ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\決定ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\戻るボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="HPGaugeEnemy.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ゲージ\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponCollision.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\武器</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySelect.cpp">
+      <Filter>ソース ファイル\シーン\敵選択画面</Filter>
+    </ClCompile>
+    <ClCompile Include="IconES.cpp">
+      <Filter>ソース ファイル\シーン\敵選択画面</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\ボタン\終了ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordManAnim.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordRain.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\バリア</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponParmUI.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\セレクト画面\パラメーター</Filter>
+    </ClCompile>
+    <ClCompile Include="ParmBG.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\セレクト画面\背景</Filter>
+    </ClCompile>
+    <ClCompile Include="NameUI.cpp">
+      <Filter>ソース ファイル\2Dオブジェクト\セレクト画面\名前</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManger.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleGolem.cpp">
+      <Filter>ソース ファイル\シーン\バトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSwordMan.cpp">
+      <Filter>ソース ファイル\シーン\バトル画面</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordMan.cpp">
+      <Filter>ソース ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClCompile>
+    <ClCompile Include="HitStop.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugProc.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.hpp">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\システム\カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>ヘッダー ファイル\システム\カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\自機</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\地面</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnim.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\自機</Filter>
+    </ClInclude>
+    <ClInclude Include="GolemAnim.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakGround.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="2Dobj.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\開始ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpModel.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\シーン\タイトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\マウスカーソル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\タイトルロゴ</Filter>
+    </ClInclude>
+    <ClInclude Include="HPGauge.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ゲージ</Filter>
+    </ClInclude>
+    <ClInclude Include="HPGaugePlayer.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ゲージ\プレイヤー</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\武器</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ダメージ</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>ヘッダー ファイル\シーン\ホーム画面</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponIcon.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\アイコン</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyIcon.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\アイコン</Filter>
+    </ClInclude>
+    <ClInclude Include="BG_Frame.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\背景</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelStartButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\戦闘開始ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\モンスターボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\武器ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSelect.h">
+      <Filter>ヘッダー ファイル\シーン\武器選択画面</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\矢印ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\決定ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\戻るボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="HPGaugeEnemy.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ゲージ\敵</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySelect.h">
+      <Filter>ヘッダー ファイル\シーン\敵選択画面</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\ボタン\終了ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordRain.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\バリア</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponParmUI.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\セレクト画面\パラメーター</Filter>
+    </ClInclude>
+    <ClInclude Include="ParmBG.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\セレクト画面\背景</Filter>
+    </ClInclude>
+    <ClInclude Include="NameUI.h">
+      <Filter>ヘッダー ファイル\2Dオブジェクト\セレクト画面\名前</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordManAnim.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManger.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordMan.h">
+      <Filter>ヘッダー ファイル\3Dオブジェクト\敵\SwordMan</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGolem.h">
+      <Filter>ヘッダー ファイル\シーン\バトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSwordMan.h">
+      <Filter>ヘッダー ファイル\シーン\バトル画面</Filter>
+    </ClInclude>
+    <ClInclude Include="HitStop.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>ヘッダー ファイル\システム</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{d6ed9535-8abf-40ae-8da4-ed48097b53af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{9b2bcd33-859a-409b-b7b8-5f33585ca435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{3578022a-c500-48e8-afe7-ca4aecee07aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{81c11405-3190-4ecb-a558-8ab1f168865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{cb4df8c3-b014-4ceb-9304-d0f65a1f2fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\システム">
+      <UniqueIdentifier>{8541d710-9ea4-4734-9e7b-eff8a0f5c584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\システム">
+      <UniqueIdentifier>{c42014cc-f366-439a-8267-06e1433794de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\シェーダー">
+      <UniqueIdentifier>{95676ce7-70b6-4835-8253-898a99afe996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\システム\カメラ">
+      <UniqueIdentifier>{3388d19f-acef-48e4-88de-3bcd6ae3093d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\システム\カメラ">
+      <UniqueIdentifier>{f820d246-1bcb-4a33-8958-dd1443bb96e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト">
+      <UniqueIdentifier>{395e8dae-512d-4f88-a705-d605cd0ca76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\敵">
+      <UniqueIdentifier>{130ac842-74d0-49ff-b3a9-b543259df6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\敵\Golem">
+      <UniqueIdentifier>{034750e3-d611-43a3-9cac-ebb46dd0cb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\地面">
+      <UniqueIdentifier>{179abdd0-e9f4-48d4-81c3-7ab4a8486de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\自機">
+      <UniqueIdentifier>{b76b8023-6b5e-431f-9691-7cde9202d4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト">
+      <UniqueIdentifier>{3f76c355-2f2f-41c5-99e7-249fb201c5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\敵">
+      <UniqueIdentifier>{e9dbf8bc-763d-4989-ab50-953ca607f4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\敵\Golem">
+      <UniqueIdentifier>{09d395d7-62bc-4d20-bfa8-317691c0efe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\地面">
+      <UniqueIdentifier>{b2c1e0bd-2fd1-4674-be3d-42031601b30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\自機">
+      <UniqueIdentifier>{1d4680a7-0d96-4305-8766-1718096a9451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト">
+      <UniqueIdentifier>{79075a00-e8ec-4453-a2c3-52bc7a47a764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト">
+      <UniqueIdentifier>{ca2e7738-b275-44d9-98fc-b3a78b9a17fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\マウスカーソル">
+      <UniqueIdentifier>{7ccf5f61-14c6-4ef0-9286-4a74cd0eaad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\マウスカーソル">
+      <UniqueIdentifier>{bcaeb498-9b49-4d82-af1a-2270a3a3eb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\タイトルロゴ">
+      <UniqueIdentifier>{5c330cc9-c792-4655-adcc-3b67c4587c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\タイトルロゴ">
+      <UniqueIdentifier>{e3592f87-df11-4709-b146-36ee101dbe88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\武器">
+      <UniqueIdentifier>{82ccd6ef-c1ae-41fd-b96a-3d1ebd734af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\武器">
+      <UniqueIdentifier>{289a55c2-2838-4889-ae40-620a7d202065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ダメージ">
+      <UniqueIdentifier>{8d5adcd2-6019-4c33-8e52-3acd79484569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ダメージ">
+      <UniqueIdentifier>{883038ae-b729-48ff-8cdd-890f0ab17589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\アイコン">
+      <UniqueIdentifier>{4e43be01-0eaf-493d-85ae-da29d0543888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\アイコン">
+      <UniqueIdentifier>{fde37cf1-add4-4fb5-9f6e-ebdf9ecf414a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\背景">
+      <UniqueIdentifier>{84472592-3d24-4c91-b559-dfb869b49a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\背景">
+      <UniqueIdentifier>{61cdcdf4-ba36-4388-b0b9-2201e8d83fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\タイトル画面">
+      <UniqueIdentifier>{b00ab2cf-0db5-4463-b0da-17981b0a1c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\ホーム画面">
+      <UniqueIdentifier>{9f2d76c9-31af-4118-94fb-230404c596f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\タイトル画面">
+      <UniqueIdentifier>{da2664e9-110b-43ef-8060-ab8d08903284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\ホーム画面">
+      <UniqueIdentifier>{08811ba4-4c1f-42e1-8fdd-b296832a000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン">
+      <UniqueIdentifier>{05edbc6b-fb64-438c-aae2-5e8c286fb9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\開始ボタン">
+      <UniqueIdentifier>{2ae45241-520c-4338-8cef-ffe1bbbb18f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン">
+      <UniqueIdentifier>{b6e2dca9-d686-4f81-8a3e-12e0ec917826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\開始ボタン">
+      <UniqueIdentifier>{177d8db9-4e48-429a-a472-2ca40bc9f29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\戦闘開始ボタン">
+      <UniqueIdentifier>{a7d5954f-9576-4cdb-8873-42a3131594c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\武器ボタン">
+      <UniqueIdentifier>{ed1ce552-27a1-4623-aff8-d879e61c6659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\モンスターボタン">
+      <UniqueIdentifier>{b8fbdcb4-2768-418d-9c8a-2fac8d4cabe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\モンスターボタン">
+      <UniqueIdentifier>{70027daa-530b-42af-8e3a-9f5957ad120f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\武器ボタン">
+      <UniqueIdentifier>{42d5b7df-c7c6-484e-943e-2c22304ca54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\戦闘開始ボタン">
+      <UniqueIdentifier>{91f458c7-5722-4b4b-a767-f19cdc28598e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\武器選択画面">
+      <UniqueIdentifier>{d4d47031-51f6-4d7b-ae59-0889bdd488a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\武器選択画面">
+      <UniqueIdentifier>{b29292f1-371f-4150-9cae-2174deeb4ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\矢印ボタン">
+      <UniqueIdentifier>{320f9540-157d-420b-89ed-4e4176001c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\矢印ボタン">
+      <UniqueIdentifier>{0b0c2bf3-53ce-41c1-9021-6f2b66ec04de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\決定ボタン">
+      <UniqueIdentifier>{2ddf62d9-2cc7-4722-8bd7-735399270ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\決定ボタン">
+      <UniqueIdentifier>{8f1a8c89-c946-42e3-b82d-4d531302b2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\戻るボタン">
+      <UniqueIdentifier>{0332ff4a-209e-4a62-be41-0178158c55fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\戻るボタン">
+      <UniqueIdentifier>{6039c2dc-f734-4cc9-9b38-3877a361fb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\敵選択画面">
+      <UniqueIdentifier>{0ba67af6-1cac-47fa-82e6-c2b3ec63fefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\敵選択画面">
+      <UniqueIdentifier>{e1a3b668-8721-412d-a14f-a21951a213a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ボタン\終了ボタン">
+      <UniqueIdentifier>{a7e2627a-48e2-483a-b314-705aea50b342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ボタン\終了ボタン">
+      <UniqueIdentifier>{34860e27-f731-4ddf-82ff-1926a240b654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\3Dオブジェクト\敵\SwordMan">
+      <UniqueIdentifier>{138023eb-ffd8-4562-8131-ea52ba9ecacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3Dオブジェクト\敵\SwordMan">
+      <UniqueIdentifier>{034f1dea-285a-4a98-8036-04cea1528adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\バリア">
+      <UniqueIdentifier>{0a353821-8f7e-4f93-b8be-e4c380310f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\バリア">
+      <UniqueIdentifier>{a53ac725-fb7a-4e40-a5c0-640612019fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ゲージ">
+      <UniqueIdentifier>{293480cf-c5ea-4a37-bcab-63e8edd39cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ゲージ\プレイヤー">
+      <UniqueIdentifier>{456e6a5f-2726-440b-9429-067d521a2664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\ゲージ\敵">
+      <UniqueIdentifier>{01a02e85-6777-40e3-8614-1e675c4275c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\セレクト画面">
+      <UniqueIdentifier>{dc52633e-3ad5-4f65-91ab-3ddab9524c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\セレクト画面\名前">
+      <UniqueIdentifier>{9e233cb1-e27c-4e83-b61d-a5a52719777b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\セレクト画面\パラメーター">
+      <UniqueIdentifier>{bf51e420-a49a-4747-807d-d18bc875ca76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\セレクト画面">
+      <UniqueIdentifier>{060209ec-c798-4dc5-9db9-8139ececa3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ゲージ">
+      <UniqueIdentifier>{e656430d-bf8d-452e-85a1-8507d069014c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ゲージ\プレイヤー">
+      <UniqueIdentifier>{578a8850-7996-491c-80c1-1fa90f8be3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\ゲージ\敵">
+      <UniqueIdentifier>{0d7563af-1f96-46e9-b770-02ddb3a83ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\セレクト画面\名前">
+      <UniqueIdentifier>{7232e0ca-c359-43e4-96b3-08602556991a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\セレクト画面\パラメーター">
+      <UniqueIdentifier>{6abc1483-05b0-4098-b920-d46a0667cd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2Dオブジェクト\セレクト画面\背景">
+      <UniqueIdentifier>{9cf4eaf0-cba9-47ae-8dbb-7433cd826c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2Dオブジェクト\セレクト画面\背景">
+      <UniqueIdentifier>{b512e419-2fd0-4317-a68c-91c14744c162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン\バトル画面">
+      <UniqueIdentifier>{02f29f84-f446-473f-a3c7-87baf3a01651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン\バトル画面">
+      <UniqueIdentifier>{cb0eb534-2f40-4bd5-a384-d03223df8a5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\directx11.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

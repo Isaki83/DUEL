@@ -41,6 +41,9 @@ CPlayerAnimData::CPlayerAnimData()
 	m_pAnimData = nullptr;
 
 	for (int i = 0; i < 2; i++) { m_bLoop[i] = true; }
+
+	// 必要な要素数分ダミーデータで埋める
+	for (int i = 0; i < m_MaxParts; i++) { m_angle.push_back(XMFLOAT3(0.0f, 0.0f, 0.0f)); }
 }
 
 

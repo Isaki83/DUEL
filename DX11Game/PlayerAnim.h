@@ -7,6 +7,7 @@
 ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞*/
 #pragma once
 #include "Parts.h"
+#include "vector"
 
 //＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 // マクロ定義
@@ -30,30 +31,27 @@ enum EAnim_MC {
 
 
 //＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-// 構造体定義
-//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-// キーフレーム情報
-struct TAnimData_MC {
-	int			m_time;					// 時刻(フレーム数)
-	XMFLOAT3	m_angle[MAX_MC_PARTS];
-};
-
-
-//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 // アニメーション データ クラス
 //＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 class CPlayerAnimData
 {
 private:
+	// キーフレーム情報
+	struct TAnimData_MC {
+		int			m_time;					// 時刻(フレーム数)
+		XMFLOAT3	m_angle[MAX_MC_PARTS];
+	};
+
 	int				m_MaxParts;				// パーツ数
 	float			m_timer;				// フレーム番号
 	float			m_iTimerAddSpeed;		// フレーム番号を進める速さ
 	int				m_anim_index;			// 現在のキーフレーム
-	XMFLOAT3		m_angle[MAX_MC_PARTS];	// 現在の角度
+	std::vector<XMFLOAT3>		m_angle;	// 現在の角度
 	int				m_keyFrameMax;			// キーフレーム数
 	TAnimData_MC*	m_pAnimData;			// キーフレーム
 	bool			m_bLoop[2];				// 0:ループ再生するか
 											// 1:フレームを進めいよいか
+	std::vector<int> m_test;
 
 public:
 	CPlayerAnimData();
